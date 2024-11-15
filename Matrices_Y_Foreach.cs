@@ -1,4 +1,4 @@
-/*// Una matriz (array) es una colección de elementos que comparten el mismo tipo de datos. 
+// Una matriz (array) es una colección de elementos que comparten el mismo tipo de datos. 
 // Puedes acceder a cada elemento mediante un índice numérico.
 
 // Declaración y asignación de valores a un array.
@@ -24,9 +24,9 @@ foreach (string name in names)
 {
     Console.WriteLine(name); // Imprime cada nombre en el array.
 }
-*/
 
-/*// Declaración e inicialización de un array de enteros.
+
+// Declaración e inicialización de un array de enteros.
 // Este array representa las cantidades de objetos en diferentes secciones ("bins") del inventario.
 int[] inventario = { 200, 450, 700, 175, 250 };
 
@@ -58,7 +58,7 @@ foreach (int objetos in inventario)
 // Finalmente, imprimimos el valor total acumulado en 'suma'.
 // Este mensaje indica cuántos objetos hay en total en todo el inventario.
 Console.WriteLine($"We have {suma} items in inventory.");
-*/
+
 
 // Desafío de pedido fraudulento
 // Declaramos e inicializamos un array de cadenas (strings) que contiene los identificadores de los pedidos fraudulentos.
